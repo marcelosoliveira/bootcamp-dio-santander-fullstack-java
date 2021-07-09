@@ -19,12 +19,12 @@ public class QueriesExecution {
         postDAO.listPost().forEach(System.out::println);
         Post post = new Post(
                 "Marcelo dos Santos Bob", LocalDate.now(), 0,
-                "JDBC Concluído", 2, UUID.randomUUID());
+                "JDBC Concluído com sucesso", 2, UUID.randomUUID());
 
         //postDAO.insertPost(post);
-        post.setId(1L);
-        postDAO.updatePost(post);
-        //postDAO.deletePost(3L);
+        //post.setId(2L);
+        //postDAO.updatePost(post);
+        //postDAO.deletePost(1L);
 
         // =========================== 1 - Consulta =================================================
         //List<Aluno> alunos = alunoDAO.list();

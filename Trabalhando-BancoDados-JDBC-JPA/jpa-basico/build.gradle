@@ -17,11 +17,12 @@ dependencies {
 
     // Notar que essa API nao faz o programa rodar, apenas valida as annotations (pois sao so as especificacoes)
     // https://mvnrepository.com/artifact/javax.persistence/javax.persistence-api
-    //compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
+    compile group: 'javax.persistence', name: 'javax.persistence-api', version: '2.2'
 
     // Drive JDBC que sera utilizado pelos frameworks que implementam o JPA
     // https://mvnrepository.com/artifact/mysql/mysql-connector-java
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.17'
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.2.22'
 
     // === Necessarios para a parte 2 do curso. Essas sao as implementacoes do JPA (Hibernate e EclipseLink) e o automatizador de criacao de Metamodels ===
 

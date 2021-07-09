@@ -16,9 +16,9 @@
         <!-- Configuracoes de conexao ao banco de dados -->
         <properties>
             <!-- Configuracoes do banco de dados -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/digital_innovation_one" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/dio_santander_jpa" />
             <property name="javax.persistence.jdbc.user" value="root" />
-            <property name="javax.persistence.jdbc.password" value="password" />
+            <property name="javax.persistence.jdbc.password" value="admin" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
         </properties>
 
@@ -42,9 +42,9 @@
         <!-- Configuracoes de conexao ao banco de dados e do Hibernate/EclipseLink -->
         <properties>
             <!-- Configuracoes do banco de dados -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/digital_innovation_one" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/dio_santander_jpa" />
             <property name="javax.persistence.jdbc.user" value="root" />
-            <property name="javax.persistence.jdbc.password" value="password" />
+            <property name="javax.persistence.jdbc.password" value="admin" />
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
 
             <!-- Configuracoes do Hibernate (os parametros so sao reconhecidos se estiver usando a implementacao do Hibernate)-->
@@ -58,6 +58,27 @@
 <!--            <property name="eclipselink.logging.level.sql" value="FINE" />-->
 <!--            <property name="eclipselink.logging.parameters" value="true" />-->
 <!--            <property name="eclipselink.ddl-generation" value="drop-and-create-tables" />-->
+        </properties>
+
+    </persistence-unit>
+
+    <persistence-unit name="user-postgres" transaction-type="RESOURCE_LOCAL">
+        <description>Inserindo um novo usuário no banco de dados post do postgreSQL</description>
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <class>classes.User</class>
+
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/user"/>
+            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <property name="javax.persistence.jdbc.password" value="admin"/>
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
         </properties>
 
     </persistence-unit>

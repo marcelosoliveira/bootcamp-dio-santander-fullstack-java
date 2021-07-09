@@ -72,7 +72,7 @@ public class ExecutionPart3 {
 
         // 2.4 - JPQL
 
-//        // Trazendo somente 1 resultado
+        // Trazendo somente 1 resultado
 //        String jpql = "select a from Aluno a where a.nome = :nome";
 //        Aluno alunoJPQL = entityManager
 //                .createQuery(jpql, Aluno.class)

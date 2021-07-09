@@ -24,7 +24,7 @@ public class PostDAO {
                         resultSet.getInt("down_count"),
                         resultSet.getString("text"),
                         resultSet.getInt("up_count"),
-                        UUID.fromString(resultSet.getString("user_id"))));
+                        (UUID) resultSet.getObject("user_id")));
             }
         }catch (SQLException s) {
             System.out.println("Listagem do post falhou!");

@@ -16,7 +16,7 @@ public class QueriesExecution {
 //        AlunoDAO alunoDAO = new AlunoDAO();
 
         PostDAO postDAO = new PostDAO();
-        //postDAO.listPost().forEach(System.out::println);
+        postDAO.listPost().forEach(System.out::println);
         Post post = new Post(
                 "Marcelo dos Santos Bob", LocalDate.now(), 0,
                 "JDBC Concluído", 2, UUID.randomUUID());

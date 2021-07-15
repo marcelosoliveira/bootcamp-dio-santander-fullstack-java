@@ -16,6 +16,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
 
 
+    @Bean
     @Override
     public RestHighLevelClient elasticsearchClient() {
         ClientConfiguration configuration = ClientConfiguration.builder()

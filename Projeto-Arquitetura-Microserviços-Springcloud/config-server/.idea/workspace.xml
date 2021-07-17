@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b650770a-e507-4441-b913-92ef09eea6bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/${project.build.directory}/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/${project.build.directory}/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/SpringCloudProductCatalogApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/config/ElasticSearchConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/controller/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/dto/request/ProductDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/dto/response/MessageResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/mapper/ProductMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/model/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/repository/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/java/com/product/catalog/service/impl/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-product-catalog/src/test/java/com/product/catalog/SpringCloudProductCatalogApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/${project.build.directory}/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/${project.build.directory}/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/java/com/shopping/cart/SpringBootShoppingCart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/java/com/shopping/cart/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/java/com/shopping/cart/controller/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/java/com/shopping/cart/model/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/java/com/shopping/cart/model/Item.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/java/com/shopping/cart/repository/CartRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/java/com/shopping/cart/service/CartService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springcloud-shopping-cart/src/main/resources/banner.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1vSAa92LnRSHReDCeIvNvrLAFbd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Java-SpringBoot-Projects/springcloud-microservicos/config-server" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b650770a-e507-4441-b913-92ef09eea6bf" name="Default Changelist" comment="" />
+      <created>1626545180569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626545180569</updated>
+    </task>
+    <servers />
+  </component>
+</project>

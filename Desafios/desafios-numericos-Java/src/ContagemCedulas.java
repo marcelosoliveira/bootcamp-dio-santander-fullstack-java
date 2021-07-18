@@ -19,7 +19,7 @@ public class ContagemCedulas {
         System.out.println(notasInseridas);
 
         for (int nota : notas) {
-            System.out.println((atual / nota) + " nota(s) de R$ " + nota);
+            System.out.println((atual / nota) + " nota(s) de R$ " + nota + ",00");
             atual -= (atual / nota) * nota;
         }
     }

@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './practice.component.html',
+  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string  = 'Introdução ao Angular 8';
+  title = 'course-manager';
 
-  name: string = 'Marcelo dos Santos';
+
+  name: string = 'John';
 }

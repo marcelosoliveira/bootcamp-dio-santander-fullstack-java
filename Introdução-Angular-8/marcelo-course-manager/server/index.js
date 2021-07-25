@@ -75,7 +75,7 @@ var COURSES = [
         description: 'Escola que ensina a programar - Desenvolvedor Fullstack Web',
         code: 'fac-1234',
         duration: 1500,
-        rating: 4.5,
+        rating: 3.5,
         releaseDate: '10/09/2020',
     },
     {

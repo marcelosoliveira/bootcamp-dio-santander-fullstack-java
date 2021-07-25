@@ -13,16 +13,18 @@ import { NotFountComponent } from './core/component/not-found/not-found.componen
     AppComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     HttpClientModule,
     CourseModule,
     CoreModule,
     RouterModule.forRoot([
-        {
-          path: '**',
-          component: NotFountComponent,
-        },
-    ]),
+    {
+        path: '**',
+        component: NotFountComponent,
+    },
+], {
+    initialNavigation: 'enabled'
+}),
   ],
   providers: [],
   bootstrap: [AppComponent]

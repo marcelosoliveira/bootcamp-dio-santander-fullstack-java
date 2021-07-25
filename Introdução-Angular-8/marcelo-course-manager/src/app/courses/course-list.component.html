@@ -19,7 +19,8 @@
             <th>Duration</th>
             <th>Rating</th>
             <th>Date</th>
-            <th>Options</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>        
     </thead>
     <tbody class="border">
@@ -38,6 +39,11 @@
                 <a [routerLink]="['/course/info', course.id]" class="btn btn-primary" >
                     Edit
                 </a>
+            </td>
+            <td>
+                <button (click)="delete(course.id)" class="btn btn-danger" style="margin-top: auto;">
+                    Delete
+                </button>
             </td>
         </tr>
     </tbody>

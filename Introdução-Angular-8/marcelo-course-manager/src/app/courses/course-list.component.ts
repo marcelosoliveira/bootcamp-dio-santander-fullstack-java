@@ -20,7 +20,7 @@ export class CourseListComponent implements OnInit {
         this.retrieveAll();
     }
 
-    retrieveAll(): void {
+    public retrieveAll(): void {
         this.courseService.retrieveAll().subscribe({
             next: courses => { 
                 this.courses = courses;

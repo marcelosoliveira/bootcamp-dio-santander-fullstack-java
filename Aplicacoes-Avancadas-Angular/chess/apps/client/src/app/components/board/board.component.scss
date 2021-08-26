@@ -1,0 +1,62 @@
+@use "../../../styles";
+
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  > div {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    position: relative;
+
+    > .vertical-notation {
+      height: 100%;
+
+      display: grid;
+      grid-auto-rows: 1fr;
+
+      position: absolute;
+      left: -20px;
+
+      > span {
+        padding-bottom: 8px;
+        align-self: flex-end;
+      }
+    }
+
+    > .horizontal-notation {
+      width: 100%;
+
+      display: grid;
+      grid-template-columns: repeat(8, 1fr);
+
+      position: absolute;
+      bottom: -24px;
+
+      > span {
+        padding-left: 8px;
+      }
+    }
+
+    > .square {
+      position: relative;
+
+      &.light {
+        background-color: styles.$light-square;
+
+        &.selected {
+          background-color: styles.$light-square-selected;
+        }
+      }
+
+      &.dark {
+        background-color: styles.$dark-square;
+
+        &.selected {
+          background-color: styles.$dark-square-selected;
+        }
+      }
+    }
+  }
+}

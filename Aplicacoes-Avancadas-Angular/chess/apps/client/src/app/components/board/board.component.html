@@ -1,0 +1,30 @@
+<div id="board-boundary" [ngStyle]="{ 'width.px': side, 'height.px': side }"
+     cdkDropListGroup>
+
+  <div class="vertical-notation">
+    <span *ngFor="let num of [8, 7, 6, 5, 4, 3, 2, 1]">{{ num }}</span>
+  </div>
+
+  <div class="horizontal-notation">
+    <span *ngFor="let letter of ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']">{{ letter }}</span>
+  </div>
+
+  <ng-container *ngFor="let rank of boardBuilderIterable">
+    <ng-container *ngFor="let file of boardBuilderIterable">
+
+      <div class="square"
+           [ngClass]="(rank + file) % 2 !== 0 ? 'dark' : 'light'"
+           cdkDropList>
+
+        <div cdkDrag
+             cdkDragBoundary="#board-boundary"
+             [chessLogicSquare]="[rank, file]">
+          <div class="cdk-drag-placeholder" *cdkDragPlaceholder></div>
+        </div>
+
+      </div>
+
+    </ng-container>
+  </ng-container>
+
+</div>
